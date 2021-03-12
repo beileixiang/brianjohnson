@@ -1,0 +1,194 @@
+.navbar-brand{
+  font-family: 'League Script';
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 200;
+  text-align: center;
+  background-color: #fff;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+
+@keyframes introtext {
+  from {top:65%;}
+  to {top:50%;}
+}
+
+
+.intro-text{
+  color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: introtext 4s;
+  font-weight: 100;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color:transparent;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 14rem;
+    padding-bottom: 6rem;
+  }
+}
+
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+
+.container{
+  position: relative;
+  text-align: center;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+
+
+.projects{
+  padding: 1% 0 1% 0;
+}
+
+.projects .container{
+  margin: 0 0 0 0;
+}
+
+.projects .row{
+  margin: 5% 5% 5% 5%;
+}
+
+.projects p{
+  margin: 0 2% 0 2%;
+  text-align: left;
+}
+
+.projects h4{
+  margin: 1% 0 2% 2%;
+  font-weight: 400;
+  text-align: left;
+}
+
+.projects button{
+  float: left;
+  margin: 2% 0 0 2%; 
+}
+
+.mycontent-left {
+  border-right: 1px dashed #333;
+}
+
+.aboutme{
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.aboutme h5{
+  font-family: 'League Script';
+
+}
+
+.aboutme h6{
+  margin: 3% 0 3% 0;
+}
+
+.aboutme p{
+  margin: 3% 30% 3% 30%;
+}
+
+.aboutme img{
+  margin: 6% 0 3% 0;
+  border-radius: 50%;
+  width: 8%;
+}
+
+#aboutMeIcon{
+  margin: 0 0 0 0 ;
+  padding: 0 0 0 0;
+  height: 4%;
+  width: 4%;
+  color: #fff;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  font-size: small;
+  margin-bottom: .25rem;
+}
+
+/* .fade-in {
+  opacity: 50%;
+  transition:opacity 0.8s
+  } */
+
+.fade-in {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
